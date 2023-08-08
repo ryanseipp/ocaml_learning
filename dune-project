@@ -19,7 +19,7 @@
  (name ocaml_learning)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune (ppx_inline_test :with-test))
  (tags
   (topics "to describe" your project)))
 
